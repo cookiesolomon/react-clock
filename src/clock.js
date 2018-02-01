@@ -15,7 +15,7 @@ class Clock extends React.Component {
             () => this.tick(),
             1000
         );
-        setTimeout(() => { this.raise30MinutesPassed() }, 1000  * 30);
+        setTimeout(() => { this.raise30MinutesPassed() }, 1000 * 60 * 30);
     }
 
 
